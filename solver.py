@@ -2,8 +2,9 @@ import pyautogui
 import time
 import PIL.ImageGrab
 import z3
+import sys
 
-size=12
+size=int(sys.argv[1])
 
 time.sleep(2)
 start_positions={}
