@@ -4,6 +4,7 @@ import PIL.ImageGrab
 import z3
 import sys
 
+pyautogui.PAUSE = 0
 size=int(sys.argv[1])
 
 time.sleep(2)
